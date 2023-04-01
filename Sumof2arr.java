@@ -68,8 +68,6 @@ public class Sumof2arr {
 			 }
          System.out.println();
 	 }
-	
-	  }
- 
+	}
  
 }
