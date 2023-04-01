@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class Sumof2arr {
- public static void main(String args[]){
+public class Sumof2arr 
+{
+ public static void main(String args[])
+ {
 	 
 	 int a1[][]= new int[2][2];
 	 int a2[][]= new int[2][2];
@@ -10,10 +12,8 @@ public class Sumof2arr {
 	 
 	  
 	 for( int i=0;i<a1.length;i++){
-		 for( int j=0;j<a1.length;j++){
-			
-			 
-			 
+		 for( int j=0;j<a1.length;j++)
+		 { 
 			 System.out.println("Enter int numbers for 1st array :"+ i+" "+j); 
 			 a1[i][j]=Integer.parseInt(sc.nextLine());
 		
